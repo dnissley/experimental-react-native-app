@@ -8,6 +8,7 @@
 
 import React from 'react';
 import {
+  Button,
   SafeAreaView,
   StyleSheet,
   ScrollView,
@@ -15,6 +16,7 @@ import {
   Text,
   StatusBar,
 } from 'react-native';
+import crashlytics from '@react-native-firebase/crashlytics';
 
 import {
   Header,
@@ -39,6 +41,19 @@ const App: () => React$Node = () => {
             </View>
           )}
           <View style={styles.body}>
+            <View style={styles.sectionContainer}>
+              <Text style={styles.sectionTitle}>Test Crashlytics</Text>
+              <Text style={styles.sectionDescription}>
+                Crash the app to see if it works:
+              </Text>
+              <Button
+                title="Crash Me!!"
+                onPress={() => {
+                  crashlytics().crash();
+                  //throw new Error('hello');
+                }}
+              />
+            </View>
             <View style={styles.sectionContainer}>
               <Text style={styles.sectionTitle}>Step One</Text>
               <Text style={styles.sectionDescription}>
