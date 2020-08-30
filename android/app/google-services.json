@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "444226659125",
+    "firebase_url": "https://experimental-firebase-app.firebaseio.com",
+    "project_id": "experimental-firebase-app",
+    "storage_bucket": "experimental-firebase-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:444226659125:android:686bfe991da66c14a6e27c",
+        "android_client_info": {
+          "package_name": "com.experimentalreactnativeapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "444226659125-6rpv9v28v16tve8sd0l92rls30ne960g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDIw13qtAOXzoMblccbYQS6KPVXzqNdCnU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "444226659125-6rpv9v28v16tve8sd0l92rls30ne960g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
