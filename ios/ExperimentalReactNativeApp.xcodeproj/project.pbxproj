@@ -12,6 +12,7 @@
 		13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		1BB33F9F07BC409921E2893A /* libPods-ExperimentalReactNativeApp-ExperimentalReactNativeAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A59C33A1DA8504856223DB7 /* libPods-ExperimentalReactNativeApp-ExperimentalReactNativeAppTests.a */; };
 		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
@@ -23,7 +24,6 @@
 		7DBB6C0D24FB693E007BC7A1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7DBB6C0924FB693E007BC7A1 /* GoogleService-Info.plist */; };
 		8BA0AF44C75CD0FBD6199217 /* libPods-ExperimentalReactNativeApp-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832B3F6AADBF6BB04F2479B2 /* libPods-ExperimentalReactNativeApp-tvOSTests.a */; };
 		9A321ED60830E43D3F273AD2 /* libPods-ExperimentalReactNativeApp-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D54DCE7127F06B1C8AC1FFC4 /* libPods-ExperimentalReactNativeApp-tvOS.a */; };
-		AF3C261F1DB24C2B547ECA85 /* libPods-ExperimentalReactNativeAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AC6B965D837192DA6563B76F /* libPods-ExperimentalReactNativeAppTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,14 +58,16 @@
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = ExperimentalReactNativeApp/main.m; sourceTree = "<group>"; };
 		2D02E47B1E0B4A5D006451C7 /* ExperimentalReactNativeApp-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ExperimentalReactNativeApp-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* ExperimentalReactNativeApp-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ExperimentalReactNativeApp-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A59C33A1DA8504856223DB7 /* libPods-ExperimentalReactNativeApp-ExperimentalReactNativeAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ExperimentalReactNativeApp-ExperimentalReactNativeAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A7770448BDA277461AE7355 /* Pods-ExperimentalReactNativeAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExperimentalReactNativeAppTests.debug.xcconfig"; path = "Target Support Files/Pods-ExperimentalReactNativeAppTests/Pods-ExperimentalReactNativeAppTests.debug.xcconfig"; sourceTree = "<group>"; };
 		6FD0993C224DDCAEDD187807 /* libPods-ExperimentalReactNativeApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ExperimentalReactNativeApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DBB6C0924FB693E007BC7A1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		80935D996728829371617A37 /* Pods-ExperimentalReactNativeApp-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExperimentalReactNativeApp-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-ExperimentalReactNativeApp-tvOS/Pods-ExperimentalReactNativeApp-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
 		832B3F6AADBF6BB04F2479B2 /* libPods-ExperimentalReactNativeApp-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ExperimentalReactNativeApp-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		AC6B965D837192DA6563B76F /* libPods-ExperimentalReactNativeAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ExperimentalReactNativeAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE41105012406E15722CCA5B /* Pods-ExperimentalReactNativeAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExperimentalReactNativeAppTests.release.xcconfig"; path = "Target Support Files/Pods-ExperimentalReactNativeAppTests/Pods-ExperimentalReactNativeAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		C829D067E2F036DE08D64A6A /* Pods-ExperimentalReactNativeApp-ExperimentalReactNativeAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExperimentalReactNativeApp-ExperimentalReactNativeAppTests.debug.xcconfig"; path = "Target Support Files/Pods-ExperimentalReactNativeApp-ExperimentalReactNativeAppTests/Pods-ExperimentalReactNativeApp-ExperimentalReactNativeAppTests.debug.xcconfig"; sourceTree = "<group>"; };
 		D473DE66A3DFCD29000B6C49 /* Pods-ExperimentalReactNativeApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExperimentalReactNativeApp.debug.xcconfig"; path = "Target Support Files/Pods-ExperimentalReactNativeApp/Pods-ExperimentalReactNativeApp.debug.xcconfig"; sourceTree = "<group>"; };
+		D4FBED652C37210EC36DD036 /* Pods-ExperimentalReactNativeApp-ExperimentalReactNativeAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExperimentalReactNativeApp-ExperimentalReactNativeAppTests.release.xcconfig"; path = "Target Support Files/Pods-ExperimentalReactNativeApp-ExperimentalReactNativeAppTests/Pods-ExperimentalReactNativeApp-ExperimentalReactNativeAppTests.release.xcconfig"; sourceTree = "<group>"; };
 		D54DCE7127F06B1C8AC1FFC4 /* libPods-ExperimentalReactNativeApp-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ExperimentalReactNativeApp-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D75B84897DA5EB53997BD88E /* Pods-ExperimentalReactNativeApp-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExperimentalReactNativeApp-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-ExperimentalReactNativeApp-tvOSTests/Pods-ExperimentalReactNativeApp-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
 		EB19895A6329EFC0566748FA /* Pods-ExperimentalReactNativeApp-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExperimentalReactNativeApp-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-ExperimentalReactNativeApp-tvOSTests/Pods-ExperimentalReactNativeApp-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -79,7 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AF3C261F1DB24C2B547ECA85 /* libPods-ExperimentalReactNativeAppTests.a in Frameworks */,
+				1BB33F9F07BC409921E2893A /* libPods-ExperimentalReactNativeApp-ExperimentalReactNativeAppTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,7 +151,7 @@
 				6FD0993C224DDCAEDD187807 /* libPods-ExperimentalReactNativeApp.a */,
 				D54DCE7127F06B1C8AC1FFC4 /* libPods-ExperimentalReactNativeApp-tvOS.a */,
 				832B3F6AADBF6BB04F2479B2 /* libPods-ExperimentalReactNativeApp-tvOSTests.a */,
-				AC6B965D837192DA6563B76F /* libPods-ExperimentalReactNativeAppTests.a */,
+				3A59C33A1DA8504856223DB7 /* libPods-ExperimentalReactNativeApp-ExperimentalReactNativeAppTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -199,6 +201,8 @@
 				D75B84897DA5EB53997BD88E /* Pods-ExperimentalReactNativeApp-tvOSTests.release.xcconfig */,
 				4A7770448BDA277461AE7355 /* Pods-ExperimentalReactNativeAppTests.debug.xcconfig */,
 				AE41105012406E15722CCA5B /* Pods-ExperimentalReactNativeAppTests.release.xcconfig */,
+				C829D067E2F036DE08D64A6A /* Pods-ExperimentalReactNativeApp-ExperimentalReactNativeAppTests.debug.xcconfig */,
+				D4FBED652C37210EC36DD036 /* Pods-ExperimentalReactNativeApp-ExperimentalReactNativeAppTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -293,7 +297,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0940;
-				ORGANIZATIONNAME = Facebook;
+				ORGANIZATIONNAME = "";
 				TargetAttributes = {
 					00E356ED1AD99517003FC87E = {
 						CreatedOnToolsVersion = 6.2;
@@ -468,7 +472,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-ExperimentalReactNativeAppTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-ExperimentalReactNativeApp-ExperimentalReactNativeAppTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -612,7 +616,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4A7770448BDA277461AE7355 /* Pods-ExperimentalReactNativeAppTests.debug.xcconfig */;
+			baseConfigurationReference = C829D067E2F036DE08D64A6A /* Pods-ExperimentalReactNativeApp-ExperimentalReactNativeAppTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -635,7 +639,7 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AE41105012406E15722CCA5B /* Pods-ExperimentalReactNativeAppTests.release.xcconfig */;
+			baseConfigurationReference = D4FBED652C37210EC36DD036 /* Pods-ExperimentalReactNativeApp-ExperimentalReactNativeAppTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
